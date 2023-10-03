@@ -1,3 +1,4 @@
+import { ModeToggle } from '@/components/mode-toggle';
 import { Button } from '@/components/ui/button';
 import { UserButton } from '@clerk/nextjs';
 
@@ -9,6 +10,7 @@ export default function Main() {
 			<Button variant='ghost' className='text-lg'>
 				Click me!
 			</Button>
+			<ModeToggle />
 		</div>
 	);
 }
